@@ -3,7 +3,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 
 
-const = app = express()
+const = app = express();
 const port = process.env.PORT || 3000
 
 let users = [];
@@ -82,5 +82,5 @@ app.get('/',(req, res)=>{
 })
 app.listen(port, ()=>{
     console.log(`Example app listening at  http://localhost:${port}`);
-    
+
 })
