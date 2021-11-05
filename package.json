@@ -5,5 +5,24 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.14"
-  }
+  },
+  "name": "registration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheheryarwaseem6/registration-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheheryarwaseem6/registration-assignment/issues"
+  },
+  "homepage": "https://github.com/sheheryarwaseem6/registration-assignment#readme",
+  "description": ""
 }
